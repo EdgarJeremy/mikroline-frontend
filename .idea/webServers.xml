@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b4871088-c60e-4693-aab3-421085ab5a7d" name="Mikroline" url="http://172.10.10.253">
+        <fileTransfer host="172.10.10.253" port="22" rootFolder="/home/sirius/experimental/mikroline" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

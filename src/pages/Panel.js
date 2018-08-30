@@ -3,7 +3,7 @@ import ReactMapboxGl, { Layer, Feature, GeoJSONLayer } from 'react-mapbox-gl';
 import { Link } from 'react-router-dom';
 import _ from 'lodash';
 import Map from '../components/Map';
-import { Public } from '../services/requests';
+import { Public, Qrs } from '../services/requests';
 import Loader from '../components/Loader';
 
 export default class Panel extends React.Component {
@@ -40,12 +40,21 @@ export default class Panel extends React.Component {
         });
     }
 
+    _onQr() {
+        Qrs.index().then((qr) => {
+            this.setState({
+                qrstring: qr.data.string
+            });
+            console.log(qr);
+        });
+    }
+
     render() {
-        let { loading } = this.state;
+        let { loading, qrstring } = this.state;
         return (
             (loading) ?
                 <Loader text="Menghubungi server.." /> :
-                <div className="pl-container">
+                <div className="pl-container dark">
                     <div className="left-sided">
                         <div className="left-header">
                             <div className="ui stacked segment">
@@ -59,6 +68,9 @@ export default class Panel extends React.Component {
                             </div>
                         </div>
                         <div className="left-content">
+                            <button onClick={this._onQr.bind(this)} className="ui button blue fluid"><i className="qrcode icon"></i> Hubugkan Handphone</button>
+                            <div className="ui divider"></div>
+                            <img width="100%" src={qrstring} />
                         </div>
                         <div className="left-bottom">
                             <div className="ui divider"></div>

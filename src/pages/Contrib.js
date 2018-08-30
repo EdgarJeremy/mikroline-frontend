@@ -89,7 +89,7 @@ export default class Contrib extends React.Component {
                                         <div className="field">
                                             <div className="ui left icon input">
                                                 <i className="user icon"></i>
-                                                <input type="email" name="email" placeholder="E-mail" required={true}/>
+                                                <input ref={(e) => e && e.focus()} type="email" name="email" placeholder="E-mail" required={true}/>
                                             </div>
                                         </div>
                                         <div className="field">

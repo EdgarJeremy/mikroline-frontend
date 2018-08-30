@@ -194,3 +194,11 @@ body>.grid {
 .ld-container .ui.active.dimmer {
     background-color: #222222;
 }
+.dark .left-sided {
+    background-color: #222222;
+    color: #ffffff;
+    border-right: 2px solid #333333;
+}
+.dark .left-sided .left-header .ui.stacked.segment {
+    background-color: #111111;
+}

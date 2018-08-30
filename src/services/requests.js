@@ -80,3 +80,17 @@ export const Public = {
     }
 
 };
+
+export const Qrs = {
+
+    basepoint: '/qrs',
+
+    index: function() {
+        return R({
+            basepoint: this.basepoint,
+            endpoint: '/',
+            method: 'GET'
+        });
+    }
+
+}
