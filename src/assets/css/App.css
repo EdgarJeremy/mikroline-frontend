@@ -1,0 +1,196 @@
+.main-app {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.left-sided {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+}
+
+.right-sided {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 300px;
+}
+
+.right-sided .contain {
+    position: relative;
+    height: 100%;
+}
+
+.right-sided .contain .hint {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: #ffffff;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+}
+
+.right-sided .contain .hint h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.right-sided .contain .confirm-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    background-color: transparent;
+    z-index: 1;
+    margin-left: -100px;
+}
+
+.right-sided .contain .confirm-container button {
+    width: 200px;
+    height: 50px;
+}
+
+.map-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.left-header {
+    text-align: center;
+}
+
+.left-header .ui.stacked.segment {
+    background-color: #ecf0f1;
+}
+
+.left-header .logo {
+    width: 50px;
+    vertical-align: midfdle;
+}
+
+.left-header h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.left-content {
+    padding: 20px;
+}
+
+.left-bottom {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.left-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    display: none;
+    z-index: 1;
+}
+
+.left-overlay.show {
+    display: block;
+}
+
+.left-content .raise {
+    z-index: 2;
+}
+
+.list-routes {
+    overflow-x: hidden;
+}
+
+.list-routes .item {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.list-routes .item .right.floated {
+    float: right;
+    margin-top: 10px;
+}
+
+.list-routes .item .content {
+    padding-top: 5px;
+}
+
+.list-routes .item .content h4 {
+    margin-bottom: 5px;
+}
+
+.menu-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.nf-container {
+    background-color: #222222;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.nf-container .nf-box {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+body>.grid {
+    height: 100%;
+}
+
+.image {
+    margin-top: -100px;
+}
+
+.column {
+    max-width: 450px;
+}
+
+.ct-container {
+    background-color: #222222;
+    height: 100vh;
+    padding-top: 100px;
+}
+.ct-container h2 {
+    color: #ffffff !important;
+}
+.ld-container .ui.segment {
+    height: 100vh;
+    border-radius: 0;
+}
+.ld-container .ui.active.dimmer {
+    background-color: #222222;
+}
