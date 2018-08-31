@@ -1,5 +1,6 @@
 import axios from 'axios';
 import _ from 'lodash';
+import swal from 'sweetalert';
 import config from '../config.json';
 
 const req = axios.create({
@@ -38,7 +39,7 @@ const successHandler = function (res) {
 }
 
 const errorHandler = function (err) {
-    alert(err.toString());
+    swal('Server Error', err.toString(), 'error');
 }
 
 export const Public = {
@@ -67,7 +68,7 @@ export const Public = {
             basepoint: this.basepoint,
             endpoint: 'logout',
             method: 'GET'
-        })
+        });
     },
 
     register: function (data) {
@@ -76,6 +77,14 @@ export const Public = {
             endpoint: 'register',
             method: 'POST',
             data
+        });
+    },
+
+    confirm_register: function(data) {
+        return R({
+            basepoint: this.basepoint,
+            endpoint: `confirm_register/${data}`,
+            method: 'GET'
         });
     }
 

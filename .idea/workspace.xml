@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf486d23-1c9d-48a0-adac-0e40daa2cb9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ConfirmRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ConfirmRegister.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Contrib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contrib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/requests.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,49 +20,115 @@
     <session id="-844902009">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="14" />
-          <entry key="json" value="1" />
+          <entry key="js" value="18" />
+          <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2232" />
-          <entry key="json" value="69" />
+          <entry key="js" value="2633" />
+          <entry key="json" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="69" />
-          <entry key="JavaScript" value="2232" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="93" />
+          <entry key="JavaScript" value="2631" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/routes/qrs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.43609023">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="true" current-in-tab="true">
+            <entry file="remoteDeploymentFS://&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/routes/qrs.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#94#132#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="true" current-in-tab="true">
+            <entry file="remoteDeploymentFS://&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/config.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/models/user.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/routes/public.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="580">
+                  <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
+                  <folding>
+                    <element signature="e#25#53#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/core/templates/registration_email.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                  <folding>
+                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>font</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,12 +137,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/models/article.js" />
-        <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/models/user.js" />
         <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/seedconfig.js" />
-        <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/config.json" />
         <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/core/utils.js" />
         <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/routes/articles.js" />
+        <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/models/user.js" />
         <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/routes/qrs.js" />
+        <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/core/templates/registration_email.js" />
+        <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/routes/public.js" />
+        <option value="&lt;b4871088-c60e-4693-aab3-421085ab5a7d&gt;/config.json" />
       </list>
     </option>
   </component>
@@ -98,11 +164,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="1514" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,12 +209,13 @@
       <option name="presentableId" value="Default" />
       <updated>1535632176004</updated>
       <workItem from="1535632182361" duration="2041000" />
-      <workItem from="1535635351421" duration="4120000" />
+      <workItem from="1535635351421" duration="4550000" />
+      <workItem from="1535692224665" duration="9450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6161000" />
+    <option name="totallyTimeSpent" value="16041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -173,7 +239,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.21375267" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.1369936" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">

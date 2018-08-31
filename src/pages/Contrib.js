@@ -30,7 +30,8 @@ export default class Contrib extends React.Component {
 
     _onSwitch() {
         this.setState({
-            mode: this.state.mode === 'login' ? 'register' : 'login'
+            mode: this.state.mode === 'login' ? 'register' : 'login',
+            error: null
         });
     }
 
@@ -63,6 +64,7 @@ export default class Contrib extends React.Component {
             } else {
                 this.setState({ error: body.message });
             }
+            console.log(this.state);
             this.setLoading(false);
         });
         e.preventDefault();
